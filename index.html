@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header Example</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;900&family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="main-header" class="header">
+    <div class="logo">eleken<sup>®</sup></div>
+    <nav>
+      <a href="#">CASE STUDIES</a>
+      <div class="dropdown mega-dropdown">
+        <a href="#" class="dropdown-toggle">SERVICES ▼</a>
+        <div class="mega-menu">
+          <div class="mega-menu-left">
+            <img src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/5e8b46679e241c5d4b095331_logo.svg"
+              alt="Clients Guide" class="mega-menu-img">
+            <button class="mega-menu-btn">DOWNLOAD EBOOK</button>
+          </div>
+          <div class="mega-menu-cols">
+            <div class="mega-menu-col">
+              <div class="mega-menu-title">Services</div>
+              <a href="#">Design from scratch (MVP)</a>
+              <a href="#">Product redesign</a>
+              <a href="#">Team extension</a>
+            </div>
+            <div class="mega-menu-col">
+              <div class="mega-menu-title">Approach</div>
+              <a href="#">SaaS design</a>
+              <a href="#">UI/UX design services</a>
+              <a href="#">Web design</a>
+              <a href="#">UI/UX audit</a>
+              <a href="#">Mobile design</a>
+              <a href="#">Design system</a>
+            </div>
+            <div class="mega-menu-col">
+              <div class="mega-menu-title">SaaS Industries</div>
+              <a href="#">Sales</a>
+              <a href="#">Fintech</a>
+              <a href="#">Healthcare</a>
+              <a href="#">Marketing</a>
+              <a href="#">Data</a>
+              <a href="#">Geoservice</a>
+              <a href="#">Developer-focused</a>
+              <a href="#">AI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#">PRICING</a>
+      <a href="#">ABOUT</a>
+      <div class="dropdown mega-dropdown">
+        <a href="#" class="dropdown-toggle">RESOURCES ▼</a>
+        <div class="mega-menu">
+          <div class="resources-featured">
+            <div style="font-weight:600;color:#bdbdbd;margin-bottom:24px;font-size:18px;">Featured</div>
+            <div style="display:flex;flex-direction:column;gap:24px;">
+              <a href="#"
+                style="display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:20px;font-weight:600;"><span
+                  style="color:#ff9466;font-size:22px;">→</span> TO REDESIGN OR NOT TO REDESIGN</a>
+              <a href="#"
+                style="display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:20px;font-weight:600;"><span
+                  style="color:#ff9466;font-size:22px;">→</span> TOP 3 UX AUDIT REPORT EXAMPLES</a>
+              <a href="#"
+                style="display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:20px;font-weight:600;"><span
+                  style="color:#ff9466;font-size:22px;">→</span> HOW TO FIND A DESIGNER FOR SAAS?</a>
+              <a href="#"
+                style="display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:20px;font-weight:600;"><span
+                  style="color:#ff9466;font-size:22px;">→</span> HOW TO BUILD A MINIMUM VIABLE PRODUCT</a>
+            </div>
+          </div>
+          <div class="resources-grid"
+            style="display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr);gap:36px 60px;flex:1;">
+            <div style="display:flex;align-items:flex-start;gap:18px;">
+              <span style="font-size:32px;">📧</span>
+              <div>
+                <div style="font-weight:600;font-size:24px;line-height:1.2;">Email courses</div>
+                <div style="color:#bdbdbd;font-size:18px;line-height:1.3;max-width:320px;">A place for SaaS founders to
+                  master design fundamentals in 7 days</div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:18px;">
+              <span style="font-size:32px;">🗒️</span>
+              <div>
+                <div style="font-weight:600;font-size:24px;line-height:1.2;">Blog</div>
+                <div style="color:#bdbdbd;font-size:18px;line-height:1.3;max-width:320px;">A selection of fresh insights
+                  from the front lines of product design</div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:18px;">
+              <span style="font-size:32px;">📖</span>
+              <div>
+                <div style="font-weight:600;font-size:24px;line-height:1.2;">eBooks</div>
+                <div style="color:#bdbdbd;font-size:18px;line-height:1.3;max-width:320px;">A comprehensive source of
+                  UI/UX wisdom to grow your business</div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:18px;">
+              <span style="font-size:32px;">💬</span>
+              <div>
+                <div style="font-weight:600;font-size:24px;line-height:1.2;">Story</div>
+                <div style="color:#bdbdbd;font-size:18px;line-height:1.3;max-width:320px;">How to Choose a UI/UX Design
+                  Agency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="contact-btn">CONTACT US</button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-topline">SaaS UI/UX Design Agency</div>
+      <div class="hero-headline-wrap" style="position:relative;display:inline-block;">
+        <h1 class="hero-title" style="margin-bottom:0;">
+          Pragmatic UI/UX<br>
+          <span style="position:relative;display:inline-block;">
+            design
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 14" width="433" height="14"
+              style="position:absolute;left:0;bottom:-18px;width:100%;height:16px;">
+              <g transform="matrix(1,0,0,1,0,0)">
+                <g transform="matrix(1,0,0,1,216.5,7)">
+                  <path class="hero-underline-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                    stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                    d=" M-215.5,6 C-215.5,6 -190.44500732421875,-1.2120000123977661 -190.44500732421875,-1.2120000123977661 C-179.62600708007812,-4.326000213623047 -168.10499572753906,-3.9860000610351562 -157.48899841308594,-0.23800000548362732 C-157.48899841308594,-0.23800000548362732 -156.83900451660156,-0.008999999612569809 -156.83900451660156,-0.008999999612569809 C-145.81399536132812,3.882999897003174 -133.7989959716797,3.9519999027252197 -122.7300033569336,0.18700000643730164 C-122.7300033569336,0.18700000643730164 -119.76699829101562,-0.8209999799728394 -119.76699829101562,-0.8209999799728394 C-109.94100189208984,-4.164000034332275 -99.24600219726562,-3.8910000324249268 -89.60299682617188,-0.05299999937415123 C-79.8010025024414,3.8499999046325684 -68.91600036621094,4.064000129699707 -58.96699905395508,0.5519999861717224 C-58.96699905395508,0.5519999861717224 -56.05500030517578,-0.47600001096725464 -56.05500030517578,-0.47600001096725464 C-45.95899963378906,-4.039999961853027 -34.91999816894531,-3.8610000610351562 -24.944000244140625,0.027000000700354576 C-15.053000450134277,3.882999897003174 -4.111999988555908,4.091000080108643 5.920000076293945,0.6150000095367432 C5.920000076293945,0.6150000095367432 10.182999610900879,-0.8619999885559082 10.182999610900879,-0.8619999885559082 C19.736000061035156,-4.171000003814697 30.17099952697754,-3.8559999465942383 39.50600051879883,0.02500000037252903 C48.76599884033203,3.875999927520752 59.112998962402344,4.2179999351501465 68.60800170898438,0.9879999756813049 C68.60800170898438,0.9879999756813049 74.21900177001953,-0.9210000038146973 74.21900177001953,-0.9210000038146973 C83.85600280761719,-4.198999881744385 94.34600067138672,-3.931999921798706 103.80400085449219,-0.16699999570846558 C113.76599884033203,3.7990000247955322 124.85399627685547,3.877000093460083 134.87100219726562,0.052000001072883606 C134.87100219726562,0.052000001072883606 135.32899475097656,-0.12300000339746475 135.32899475097656,-0.12300000339746475 C145.2550048828125,-3.9119999408721924 156.21600341796875,-3.9839999675750732 166.19000244140625,-0.32499998807907104 C166.19000244140625,-0.32499998807907104 167.16000366210938,0.03099999949336052 167.16000366210938,0.03099999949336052 C177.65899658203125,3.881999969482422 189.19000244140625,3.8450000286102295 199.66400146484375,-0.07400000095367432 C199.66400146484375,-0.07400000095367432 215.5,-6 215.5,-6">
+                  </path>
+                </g>
+              </g>
+              </g>
+            </svg>
+          </span>
+          agency for SaaS
+          <span style="position:absolute;right:110px;top:25px;z-index:2;">
+            <svg class="hero-squiggle-svg" width="500" height="200" viewBox="-60 -40 120 60" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                d="M-36.077999114990234,-4.557000160217285 C-43.599998474121094,12.465999603271484 -52.46200180053711,41.40299987792969 -27.731000900268555,20.97599983215332 C3.181999921798706,-4.558000087738037 5.0370001792907715,-32.86000061035156 -7.019000053405762,-27.937999725341797 C-19.075000762939453,-23.016000747680664 -45.04199981689453,39.435001373291016 -16.910999298095703,26.82200050354004 C11.220000267028809,14.208999633789062 45.84299850463867,-28.2450008392334 25.131000518798828,-24.246000289916992 C4.419000148773193,-20.246999740600586 -18.767000198364258,32.66699981689453 1.3270000219345093,26.82200050354004 C21.42099952697754,20.976999282836914 44.60599899291992,-3.941999912261963 43.987998962402344,-17.785999298095703">
+              </path>
+            </svg>
+          </span>
+        </h1>
+      </div>
+      <div class="hero-desc">
+        No hiring hustle. No sluggish agency timelines.<br>
+        Just a dedicated designer ready to start tomorrow<br>
+        and rapidly iterate your way to great UI/UX
+      </div>
+      <div class="hero-actions">
+        <button class="hero-btn hero-btn-primary">BOOK A CALL</button>
+        <a href="#" class="hero-btn hero-btn-link">CHECK PORTFOLIO <span
+            style="font-size:20px;vertical-align:-2px;">→</span></a>
+      </div>
+    </section>
+    <section class="client-logos-marquee">
+      <div class="marquee-track">
+        <span>🚀 RICHOCHET</span>
+        <span>⭐ refera</span>
+        <span>🏆 HighPoint</span>
+        <span>💡 Acadeum</span>
+        <span>📱 TextMagic</span>
+        <span>🔗 cylynx</span>
+        <span>🌟 BrandX</span>
+        <span>🧩 LogoY</span>
+        <span>🚀 RICHOCHET</span>
+        <span>⭐ refera</span>
+        <span>🏆 HighPoint</span>
+        <span>💡 Acadeum</span>
+      </div>
+    </section>
+    <div class="hello">
+      <div class="cta-hunt-wrapper">
+        <div class="cta-hunt-curve-bg">
+          <svg width="100%" height="120" viewBox="0 0 940 227" fill="none" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none" style="display:block;width:115%;height:120px;">
+            <path
+              d="M1.3042e-06 20C1.37396e-06 8.95431 8.95431 0 20 0H303.176C314.41 0 325.419 3.15428 334.949 9.10375L388.306 42.4135C396.248 47.3714 405.422 50 414.784 50H768.23H920C931.046 50 940 58.9543 940 70V206.5C940 217.546 931.046 226.5 920 226.5H20C8.9543 226.5 5.65529e-08 217.546 1.26314e-07 206.5L1.3042e-06 20Z"
+              fill="#fff"></path>
+          </svg>
+        </div>
+        <section class="cta-hunt">
+          <div class="cta-hunt-card">
+            <div class="cta-hunt-card-left">
+              <h2 class="cta-hunt-title">
+                On the <span class="cta-hunt-underline">hunt
+                  <svg width="80" height="38" viewBox="-70 -10 140 44" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);width:130%;height:38px;">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2.1"
+                      d=" M-57.845001220703125,4.021999835968018 C-59.64099884033203,10.399999618530273 -48.2239990234375,23.108999252319336 11.805999755859375,22.927000045776367 C86.84400177001953,22.698999404907227 62.98500061035156,-33.10599899291992 -0.12300000339746475,-23.9950008392334 C-63.231998443603516,-14.883999824523926 -80.71399688720703,14.067000389099121 -24.916000366210938,25">
+                    </path>
+                  </svg>
+                </span> for a designer,<br>and time is ticking?
+              </h2>
+              <div class="cta-hunt-desc">
+                It'll take you 2, 3, or even 4 months to hire one. You know the drill: post job openings, sort through
+                applicants, interview candidates, chase the top picks, wait weeks for them to join, and then
+                onboard.<br><br>
+                <b>Skip the hiring</b> headache and get straight to the solutions. We can provide you with a dedicated
+                designer tomorrow.
+              </div>
+              <button class="hero-btn hero-btn-primary">EXTEND MY TEAM <span class="btn-arrow-animate"
+                  style="font-size:20px;vertical-align:middle;">→</span></button>
+            </div>
+            <div class="cta-hunt-card-right">
+              <div class="cta-hunt-video">
+                <video class="video" style="width:100%; height:100%;" autoplay="" muted="" loop="" controls=""
+                  controlslist="nodownload">
+                  <source src="https://github.com/eleken-git/videos/raw/main/Team-extension_llya.mp4">
+                </video>
+                <span class="cta-hunt-play"><svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="30" cy="30" r="30" fill="#fff" fill-opacity="0.85" />
+                    <polygon points="24,20 44,30 24,40" fill="#FF9466" />
+                  </svg></span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div class="gap"> </div>
+
+
+  <div class="part2">
+    <div class="okk">
+      <div class="curve">
+        <svg width="100%" height="120" viewBox="0 0 940 227" fill="none" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none" style="display:block;width:115%;height:120px;">
+          <path
+            d="M1.3042e-06 20C1.37396e-06 8.95431 8.95431 0 20 0H303.176C314.41 0 325.419 3.15428 334.949 9.10375L388.306 42.4135C396.248 47.3714 405.422 50 414.784 50H768.23H920C931.046 50 940 58.9543 940 70V206.5C940 217.546 931.046 226.5 920 226.5H20C8.9543 226.5 5.65529e-08 217.546 1.26314e-07 206.5L1.3042e-06 20Z"
+            fill="#E4E4E4"></path>
+        </svg>
+      </div>
+      <div class="part20">
+        <div class="part30">
+
+          <div class="vid">
+            <div class="vid1">
+              <video class="video" style="width:233%; height:94%;" autoplay="" muted="" loop="" controls=""
+                controlslist="nodownload">
+                <source src="https://github.com/eleken-git/videos/raw/main/Redesign_llya.mp4">
+              </video>
+            </div>
+
+          </div>
+          <div class="pgraph">
+
+            <div class="under">
+
+              <div class="three">
+                <div class="line">
+                  <p>
+                  <h2>Outdated design is <div class="line">killing
+                      <div data-w-id="lol" data-is-ix2-target="1" class="line" data-animation-type="lottie"
+                        data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/646ba23cbfa30d3682be607b_crowm-04.lottie"
+                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 25 15" width="25" height="15" preserveAspectRatio="xMidYMid meet"
+                          style="width: 7%;height: 6%;transform: translate3d(0px, 0px, 0px);content-visibility: visible;">
+                          <defs>
+                            <clipPath id="__lottie_element_62">
+                              <rect width="25" height="15" x="0" y="0"></rect>
+                            </clipPath>
+                          </defs>
+                          <g clip-path="url(#__lottie_element_62)">
+                            <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                              <g opacity="1" transform="matrix(1,0,0,1,2.006999969482422,4.7270002365112305)">
+                                <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0"
+                                  stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                                  d=" M1.0069999694824219,3.0920000076293945 C1.0069999694824219,0.8939999938011169 -0.01899999938905239,-1.1929999589920044 -1.0069999694824219,-3.0920000076293945">
+                                </path>
+                              </g>
+                              <g opacity="1" transform="matrix(1,0,0,1,12.265000343322754,5.366000175476074)">
+                                <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0"
+                                  stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                                  d=" M-1.8009999990463257,4.367000102996826 C-1.6610000133514404,3.4539999961853027 -1.13100004196167,2.5299999713897705 -0.7699999809265137,1.6990000009536743 C0.10400000214576721,-0.31700000166893005 0.9629999995231628,-2.3359999656677246 1.8009999990463257,-4.367000102996826">
+                                </path>
+                              </g>
+                              <g opacity="1" transform="matrix(1,0,0,1,19.361000061035156,13.17199993133545)">
+                                <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0"
+                                  stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                                  d=" M-4.638999938964844,0.38199999928474426 C-1.5390000343322754,0.0820000022649765 1.5099999904632568,-0.38199999928474426 4.638999938964844,-0.38199999928474426">
+                                </path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
+
+                    </div>
+                  </h2>
+                  </p>
+                </div>
+                <div class="line">
+                  <p>
+                  <h2>your engagement, retention,</h2>
+                  </p>
+                </div>
+                <div class="line">
+                  <p>
+                  <h2>and revenue?</h2>
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="la">You might think a <span class="bold">total redesign is the answer, but it can make things
+                  even worse.</span> <span>Existing customers are used to how the app works now. If you make massive
+                  changes out of nowhere, you'll confuse and push away your loyal users.</span></div>
+              <p><span class="bold">You need an iterative redesign.</span> Implement small updates gradually, and within
+                a few months, you'll have a fresh interface.</p>
+              <div class="bott">
+                <button class="bot">Redesign without risk </button>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="idea-section">
+    <div class="idea-video-curve"></div>
+    <div class="idea-content">
+      <div class="new">
+        <svg width="100%" height="120" viewBox="0 0 940 227" fill="none" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none" style="display:block;width:115%;height:120px;">
+          <path
+            d="M1.3042e-06 20C1.37396e-06 8.95431 8.95431 0 20 0H303.176C314.41 0 325.419 3.15428 334.949 9.10375L388.306 42.4135C396.248 47.3714 405.422 50 414.784 50H768.23H920C931.046 50 940 58.9543 940 70V206.5C940 217.546 931.046 226.5 920 226.5H20C8.9543 226.5 5.65529e-08 217.546 1.26314e-07 206.5L1.3042e-06 20Z"
+            fill="#ffff"></path>
+        </svg>
+      </div>
+      <h2 class="idea-title">
+        Have a new idea <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 14" width="433" height="14"
+          style="position:absolute;left:0;bottom:-18px;width:72%;height:16px;">
+          <g transform="matrix(1,0,0,1,0,0)">
+            <g transform="matrix(1,0,0,1,216.5,7)">
+              <path class="hero-underline-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+                stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                d=" M-215.5,6 C-215.5,6 -190.44500732421875,-1.2120000123977661 -190.44500732421875,-1.2120000123977661 C-179.62600708007812,-4.326000213623047 -168.10499572753906,-3.9860000610351562 -157.48899841308594,-0.23800000548362732 C-157.48899841308594,-0.23800000548362732 -156.83900451660156,-0.008999999612569809 -156.83900451660156,-0.008999999612569809 C-145.81399536132812,3.882999897003174 -133.7989959716797,3.9519999027252197 -122.7300033569336,0.18700000643730164 C-122.7300033569336,0.18700000643730164 -119.76699829101562,-0.8209999799728394 -119.76699829101562,-0.8209999799728394 C-109.94100189208984,-4.164000034332275 -99.24600219726562,-3.8910000324249268 -89.60299682617188,-0.05299999937415123 C-79.8010025024414,3.8499999046325684 -68.91600036621094,4.064000129699707 -58.96699905395508,0.5519999861717224 C-58.96699905395508,0.5519999861717224 -56.05500030517578,-0.47600001096725464 -56.05500030517578,-0.47600001096725464 C-45.95899963378906,-4.039999961853027 -34.91999816894531,-3.8610000610351562 -24.944000244140625,0.027000000700354576 C-15.053000450134277,3.882999897003174 -4.111999988555908,4.091000080108643 5.920000076293945,0.6150000095367432 C5.920000076293945,0.6150000095367432 10.182999610900879,-0.8619999885559082 10.182999610900879,-0.8619999885559082 C19.736000061035156,-4.171000003814697 30.17099952697754,-3.8559999465942383 39.50600051879883,0.02500000037252903 C48.76599884033203,3.875999927520752 59.112998962402344,4.2179999351501465 68.60800170898438,0.9879999756813049 C68.60800170898438,0.9879999756813049 74.21900177001953,-0.9210000038146973 74.21900177001953,-0.9210000038146973 C83.85600280761719,-4.198999881744385 94.34600067138672,-3.931999921798706 103.80400085449219,-0.16699999570846558 C113.76599884033203,3.7990000247955322 124.85399627685547,3.877000093460083 134.87100219726562,0.052000001072883606 C134.87100219726562,0.052000001072883606 135.32899475097656,-0.12300000339746475 135.32899475097656,-0.12300000339746475 C145.2550048828125,-3.9119999408721924 156.21600341796875,-3.9839999675750732 166.19000244140625,-0.32499998807907104 C166.19000244140625,-0.32499998807907104 167.16000366210938,0.03099999949336052 167.16000366210938,0.03099999949336052 C177.65899658203125,3.881999969482422 189.19000244140625,3.8450000286102295 199.66400146484375,-0.07400000095367432 C199.66400146484375,-0.07400000095367432 215.5,-6 215.5,-6">
+              </path>
+            </g>
+          </g>
+        </svg><br>on your mind?
+      </h2>
+      <p class="idea-desc">
+        An efficient design process <b>saves time and money</b> when testing your vision.<br><br>
+        No need to reinvent the wheel. <b>Use well-known UX patterns</b> to quickly create clickable prototypes and get
+        real feedback before development begins. Leverage <b>standard component libraries</b> like Ant Design or
+        Tailwind to speed up development.
+      </p>
+      <button class="bot">
+        DESIGN FROM SCRATCH
+        <span class="btn-arrow-animate">→</span>
+      </button>
+    </div>
+    <div class="idea-video-wrap">
+
+      <div class="video-box">
+        <video class="video" style="width:100%; height:100%;" autoplay="" muted="" loop="" controls=""
+          controlslist="nodownload">
+          <source src="https://github.com/eleken-git/videos/raw/main/MVP_Illya.mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="btn-pause btn-video" style="display: none;">
+
+        </div>
+        <div class="btn-play btn-video" style="display: block;">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <section class="vendor-section">
+    <div class="vendor-problems">
+      <h2>Searching for the right design vendor is such a pain<span data-w-id="83954a31-6c48-41c5-e145-afafc085397e"
+          data-is-ix2-target="1" class="n" data-animation-type="lottie"
+          data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/63e0e73f81d6520742db5539_img-7.json"
+          data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 24" width="23"
+            height="24" preserveAspectRatio="xMidYMid meet"
+            style="width: 5%; height: 1%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_20">
+                <rect width="23" height="24" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_20)">
+              <g transform="matrix(1,0,0,1,11.965999603271484,11.407999992370605)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                    d=" M-10.553000450134277,-7.8460001945495605 C-10.553000450134277,-7.8460001945495605 -9.251999855041504,-0.6869999766349792 -9.251999855041504,-0.6869999766349792 C-9.251999855041504,-0.6869999766349792 -0.7139999866485596,-9.633000373840332 -0.7139999866485596,-9.633000373840332 C-0.7139999866485596,-9.633000373840332 -4.169000148773193,0.4440000057220459 -4.169000148773193,0.4440000057220459 C-4.169000148773193,0.4440000057220459 8.819000244140625,-1.9140000343322754 8.819000244140625,-1.9140000343322754 C8.819000244140625,-1.9140000343322754 -1.1890000104904175,5.656000137329102 -1.1890000104904175,5.656000137329102 C-1.1890000104904175,5.656000137329102 10.553000450134277,7.631999969482422 10.553000450134277,7.631999969482422 C10.553000450134277,7.631999969482422 -0.46700000762939453,9.633000373840332 -0.46700000762939453,9.633000373840332">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg></span>
+      </h2>
+      <ul>
+        <li><span class="arrow">→</span> <b>Outsourcing vendors</b><br><span class="desc">are not flexible enough in
+            their processes</span></li>
+        <li><span class="arrow">→</span> <b>Freelance designers</b><br><span class="desc">are flexible, but may not
+            always be reliable</span></li>
+        <li><span class="arrow">→</span> <b>Design agencies</b><br><span class="desc">lack the transparency that
+            in-house designers offer</span></li>
+        <li><span class="arrow">→</span> <b>In-house designers</b><br><span class="desc">lack the team expertise that
+            design agencies have</span></li>
+      </ul>
+      <p class="note">None of the above were tailor-made to design SaaS products. No wonder choosing the right design
+        service feels like trying to fit a square peg into a round hole.</p>
+    </div>
+    <div class="vendor-solution">
+      <div class="lm">
+        <div data-w-id="83954a31-6c48-41c5-e145-afafc08539a3" data-is-ix2-target="1" class="lottie-animation-241"
+          data-animation-type="lottie"
+          data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/6660607f8bcabed222fdd6d7_arrow-34.lottie"
+          data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
+          data-default-duration="1.3513512963096859" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 154 98" width="154" height="98"
+            preserveAspectRatio="xMidYMid meet"
+            style="width: 30%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_82">
+                <rect width="154" height="98" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_82)">
+              <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,153.99000549316406,104.01300048828125)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                    stroke-opacity="1" stroke-width="2"
+                    d=" M-5.864999771118164,-10.262999534606934 C-6.989999771118164,-47.01300048828125 -33.90399932861328,-62.590999603271484 -48.8849983215332,-55.926998138427734 C-63.86600112915039,-49.26300048828125 -53.426998138427734,-35.27799987792969 -48.382999420166016,-44.428001403808594 C-28.489999771118164,-80.51300048828125 -66.1760025024414,-88.20700073242188 -77.41899871826172,-84.83399963378906 C-100.99099731445312,-77.76300048828125 -81.24099731445312,-59.76300048828125 -78.47799682617188,-72.63400268554688 C-70.45500183105469,-110.00499725341797 -144.99000549316406,-105.88800048828125 -152.49000549316406,-94.26000213623047">
+                  </path>
+                </g>
+                <g opacity="1"
+                  transform="matrix(-0.144938662648201,0.5409184694290161,-0.5409184694290161,-0.144938662648201,291.94085693359375,-43.37336730957031)">
+                  <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(188,188,188)" stroke-opacity="1" stroke-width="4"
+                    d=" M289.2179870605469,175.42599487304688 C290.60198974609375,176.41400146484375 303.6260070800781,183.80099487304688 308.7439880371094,182.52200317382812 C308.2439880371094,182.77200317382812 302.7950134277344,189.85800170898438 301.0450134277344,198.48300170898438">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg></div>
+      </div>
+      <h2>Wouldn't it be great to have<br>a UI/UX partner built to <span
+          data-w-id="83954a31-6c48-41c5-e145-afafc08539b1" data-is-ix2-target="1" class="up"
+          data-animation-type="lottie"
+          data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/63f374c38a2d4727d9c2b3ef_13-ux-ui.json"
+          data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 38" width="75"
+            height="38" preserveAspectRatio="xMidYMid meet"
+            style="width: 16%; height: -100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_24">
+                <rect width="75" height="38" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_24)">
+              <g transform="matrix(1,0,0,1,37.5,18.993999481201172)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="1.5"
+                    d=" M-13.885000228881836,-15.5 C-23.195999145507812,-14.418999671936035 -53.79100036621094,16.20800018310547 -18.20800018310547,15.487000465393066 C10.258000373840332,14.91100025177002 29.125,13.5649995803833 35,12.96500015258789">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg></span><span>perfectly fit your SaaS<span data-w-id="83954a31-6c48-41c5-e145-afafc08539b7"
+            data-is-ix2-target="1" class="wew" data-animation-type="lottie"
+            data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/644024b869f117db009edd24_line-01.lottie"
+            data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180 10"
+              width="180" height="10" preserveAspectRatio="xMidYMid meet"
+              style="width: 18%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+              <defs>
+                <clipPath id="__lottie_element_77">
+                  <rect width="180" height="10" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_77)">
+                <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                  <g opacity="1" transform="matrix(1,0,0,1,95.31400299072266,4.877999782562256)">
+                    <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,142,94)"
+                      stroke-opacity="1" stroke-width="2"
+                      d=" M-94.31400299072266,2.8289999961853027 C-71.18099975585938,0.054999999701976776 68.78500366210938,-4.080999851226807 81.55000305175781,-3.5339999198913574 C94.31400299072266,-2.986999988555908 41.279998779296875,0.4059999883174896 10.050000190734863,4.080999851226807">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></span>
+          needs?</span></h2>
+      <ul>
+        <li><span class="arrow">→</span> You get a <b>dedicated designer</b> that integrates into your team like
+          in-house specialist</li>
+        <li><span class="arrow">→</span> The designer communicates directly with your team and works <b>exclusively</b>
+          on your project</li>
+        <li><span class="arrow">→</span> Full dedication ensures the designer will <b>thoroughly understand your
+            product</b>, even if it's very complicated</li>
+        <li><span class="arrow">→</span> Designer becomes a <b>thought partner</b> rather than a doer who blindly
+          follows everything you tell them</li>
+      </ul>
+      <button class="get-partner-btn">Get a design partner <span class="arroww">→</span></button>
+    </div>
+  </section>
+
+
+  <section class="safe-hands-section">
+    <div class="safe-hands-header">
+      <div>
+        <h2 class="safe-hands-title">Your design's<span data-w-id="83954a31-6c48-41c5-e145-afafc08539ed"
+            data-is-ix2-target="1" class="tline" data-animation-type="lottie"
+            data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/646ba23cbfa30d3682be607b_crowm-04.lottie"
+            data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 15"
+              width="25" height="15" preserveAspectRatio="xMidYMid meet"
+              style="width: 8%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+              <defs>
+                <clipPath id="__lottie_element_82">
+                  <rect width="25" height="15" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_82)">
+                <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                  <g opacity="1" transform="matrix(1,0,0,1,2.006999969482422,4.7270002365112305)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M1.0069999694824219,3.0920000076293945 C1.0069999694824219,0.8939999938011169 -0.01899999938905239,-1.1929999589920044 -1.0069999694824219,-3.0920000076293945">
+                    </path>
+                  </g>
+                  <g opacity="1" transform="matrix(1,0,0,1,12.265000343322754,5.366000175476074)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M-1.8009999990463257,4.367000102996826 C-1.6610000133514404,3.4539999961853027 -1.13100004196167,2.5299999713897705 -0.7699999809265137,1.6990000009536743 C0.10400000214576721,-0.31700000166893005 0.9629999995231628,-2.3359999656677246 1.8009999990463257,-4.367000102996826">
+                    </path>
+                  </g>
+                  <g opacity="1" transform="matrix(1,0,0,1,19.361000061035156,13.17199993133545)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M-4.638999938964844,0.38199999928474426 C-1.5390000343322754,0.0820000022649765 1.5099999904632568,-0.38199999928474426 4.638999938964844,-0.38199999928474426">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></span>
+          <br>in safe hands
+        </h2>
+      </div>
+      <div data-w-id="83954a31-6c48-41c5-e145-afafc08539f1" data-is-ix2-target="1" class="lottie-animation-238"
+        data-animation-type="lottie"
+        data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/6659efa8fbc13b2ca52fc10e_spring-11.lottie"
+        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.1"
+        data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 160 144" width="160" height="144" preserveAspectRatio="xMidYMid meet"
+          style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+          <defs>
+            <clipPath id="__lottie_element_87">
+              <rect width="160" height="144" x="0" y="0"></rect>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#__lottie_element_87)">
+            <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+              <g opacity="1" transform="matrix(1,0,0,1,81.19300079345703,80.10399627685547)">
+                <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                  stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                  d=" M-76.61100006103516,-4.625 C-82.55699920654297,33.26599884033203 -84.82499694824219,95.58300018310547 -46.33300018310547,41.71099853515625 C1.781999945640564,-25.628999710083008 -9.60099983215332,-82.93199920654297 -31.051000595092773,-66.68800354003906 C-52.5,-50.44499969482422 -71.05999755859375,87.69599914550781 -21.613000869750977,47.55099868774414 C27.834999084472656,7.406000137329102 74.33799743652344,-95.58300018310547 35.112998962402344,-76.54499816894531 C-4.111999988555908,-57.50699996948242 -22.198999404907227,60.172000885009766 14.807000160217285,37.79199981689453 C51.81399917602539,15.413000106811523 84.8239974975586,-46.569000244140625 76.20999908447266,-73.78099822998047">
+                </path>
+              </g>
+            </g>
+          </g>
+        </svg></div>
+    </div>
+    <div class="safe-hands-cards">
+      <div class="safe-hands-card">
+        <div class="safe-hands-card-main">9 years</div>
+        <div class="safe-hands-card-desc">in UI/UX for SaaS</div>
+        <div class="safe-hands-card-num">/ 01</div>
+      </div>
+      <div class="safe-hands-card">
+        <div class="safe-hands-card-main">200+</div>
+        <div class="safe-hands-card-desc">projects done</div>
+        <div class="safe-hands-card-num">/ 02</div>
+      </div>
+      <div class="safe-hands-card">
+        <div class="safe-hands-card-main">1 day</div>
+        <div class="safe-hands-card-desc">and designer is yours</div>
+        <div class="safe-hands-card-num">/ 03</div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="clutch-section">
+    <div class="clutch-header">
+      <div class="clutch-title-wrap">
+        <h2 class="clutch-title">
+          <span class="clutch-rating-circle">4.9</span> is our <span data-w-id="83954a31-6c48-41c5-e145-afafc08539f1"
+            data-is-ix2-target="1" class="lottie-animation-238" data-animation-type="lottie"
+            data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/6659efa8fbc13b2ca52fc10e_spring-11.lottie"
+            data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.1"
+            data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 160 144" width="160" height="144" preserveAspectRatio="xMidYMid meet"
+              style="width: 7%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+              <defs>
+                <clipPath id="__lottie_element_87">
+                  <rect width="160" height="144" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_87)">
+                <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                  <g opacity="1" transform="matrix(1,0,0,1,81.19300079345703,80.10399627685547)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M-76.61100006103516,-4.625 C-82.55699920654297,33.26599884033203 -84.82499694824219,95.58300018310547 -46.33300018310547,41.71099853515625 C1.781999945640564,-25.628999710083008 -9.60099983215332,-82.93199920654297 -31.051000595092773,-66.68800354003906 C-52.5,-50.44499969482422 -71.05999755859375,87.69599914550781 -21.613000869750977,47.55099868774414 C27.834999084472656,7.406000137329102 74.33799743652344,-95.58300018310547 35.112998962402344,-76.54499816894531 C-4.111999988555908,-57.50699996948242 -22.198999404907227,60.172000885009766 14.807000160217285,37.79199981689453 C51.81399917602539,15.413000106811523 84.8239974975586,-46.569000244140625 76.20999908447266,-73.78099822998047">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></span><br>Clutch average
+        </h2>
+      </div>
+      <div class="clutch-badge">
+        <div class="clutch-badge-inner">
+          <span class="clutch-badge-logo">REVIEWED ON</span>
+          <span class="clutch-badge-clutch">Clutch <span style="color:#FF9466;">★★★★★</span></span>
+          <span class="clutch-badge-reviews">103 REVIEWS</span>
+        </div>
+      </div>
+    </div>
+    <div class="clutch-testimonials-grid">
+      <div class="clutch-column1">
+        <video class="video" style="width:100%; height:100%;" controls="" controlslist="nodownload">
+          <source src="https://github.com/eleken-git/videos/raw/main/Review-Uppwise.mp4">
+        </video>
+        <div class="clutch-testimonial-card clutch-testimonial-video">
+
+          <div class="clutch-testimonial-text">The designs helped us to generate significant customer excitement and
+            help investors align with our product's vision and potential.</div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">The team at Eleken are true professionals and I felt as though we were
+            immediately getting value from our collaboration.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/33.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Tanay Kothari, CEO</div>
+              <div class="clutch-user-company">floret</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">The value proposition is very high with Eleken — their rates are fair and
+            their team is excellent. As a startup, we have been working towards product market fit. The improvements to
+            our UI have led to new business as well as interest from investors.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/40.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Jamie Conklin, VP Product</div>
+              <div class="clutch-user-company">astraea</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">They were professional to the core and ensured that they deliver no
+            matter what. NWORX3 design has been a success story.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/39.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Hariraj Vijayakumar, CEO</div>
+              <div class="clutch-user-company">NWORX</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clutch-column ">
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">Our partnership with Eleken ended up being our ideal scenario.
+            Subscription structure and one-on-one designer approach is great.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/women/37.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Cara Incandela, Director of Product Marketing</div>
+              <div class="clutch-user-company">SPA WEEK</div>
+            </div>
+          </div>
+        </div>
+        <video class="video" style="width:100%; height:100%;" controls="" controlslist="nodownload">
+          <source src="https://github.com/eleken-git/videos/raw/main/Review-Wicked.mp4">
+        </video>
+        <div class="clutch-testimonial-card clutch-testimonial-video">
+
+          <div class="clutch-testimonial-text">I found their designers are very independent, can work without too much
+            oversight and are great at onboarding onto the project.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/38.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Huzaifah Jeewa, Head of Engineering</div>
+              <div class="clutch-user-company">risale</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">The most impressive aspect of this company is the collaboration between
+            the UX engineer and our team. Their engineer and project manager have been easy to get a hold of and have
+            been in constant contact with our team.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Quentin Rhoads-Herrera, CEO</div>
+              <div class="clutch-user-company">VECTORU</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">They were able to really listen to us and learn about our business, to be
+            open to the changes that we brought. Next to the fact that design skills are top-notch.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/36.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Ed Frenberg, CEO</div>
+              <div class="clutch-user-company">CHERITTY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clutch-column1">
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">What impressed us the most about Eleken is their ability to delve deep
+            into a complex product and deliver exceptional design solutions.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/35.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">David Fischer, Director</div>
+              <div class="clutch-user-company">[Company]</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">Whenever we ask them for something, they have it ready by the next day.
+            If we can't provide immediate feedback, they keep working on other things to avoid wasting time waiting.
+          </div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/34.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Ted Jackson, Co-Founder</div>
+              <div class="clutch-user-company">ClearPoint Strategy</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">Eleken deliverables have been perfectly in line with initial
+            expectations. They made our collaboration extremely effective and productive.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/43.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Mauro Contini, CTO</div>
+              <div class="clutch-user-company">upwsie</div>
+            </div>
+          </div>
+        </div>
+        <div class="clutch-testimonial-card">
+          <div class="clutch-testimonial-text">User feedback has changed from \"this looks complicated\" to \"this looks
+            easy\", and our software went from a prototype, to actual, real, usable software.</div>
+          <div class="clutch-testimonial-user">
+            <img src="https://randomuser.me/api/portraits/men/42.jpg" class="clutch-avatar" />
+            <div>
+              <div class="clutch-user-name">Moritz Uehling, CTO</div>
+              <div class="clutch-user-company">datawisp</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="saas-verticals-section">
+    <div class="saas-badges-row">
+      <img src="badge1.png" alt="Badge 1" class="saas-badge">
+      <img src="badge2.png" alt="Badge 2" class="saas-badge">
+      <img src="badge3.png" alt="Badge 3" class="saas-badge">
+      <img src="badge4.png" alt="Badge 4" class="saas-badge">
+      <img src="badge5.png" alt="Badge 5" class="saas-badge">
+      <img src="badge6.png" alt="Badge 6" class="saas-badge">
+    </div>
+    <div class="saas-headline-wrap">
+      <h2 class="saas-headline">
+        your
+        <span> SaaS</span> <span data-w-id="tex" data-is-ix2-target="1" class="textop" data-animation-type="lottie"
+          data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/63f3716a4fd57773120fd0a1_01-ux-ui.json"
+          data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 194 88"
+            width="194" height="88" preserveAspectRatio="xMidYMid meet"
+            style="width: 15%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_36">
+                <rect width="194" height="88" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_36)">
+              <g transform="matrix(1,0,0,1,97,44)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="1.5"
+                    d=" M-82.4749984741211,8.758000373840332 C-85.20700073242188,19.802000045776367 -67.84100341796875,41.8129997253418 23.472999572753906,41.49700164794922 C137.61500549316406,41.10300064086914 101.322998046875,-55.5369987487793 5.326000213623047,-39.75899887084961 C-90.66999816894531,-23.981000900268555 -133.98599243164062,22.56399917602539 -49.111000061035156,41.49700164794922">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg></span>
+        <span class="verti"> vertical is no mystery</span>
+
+        <br> <span class="tous">to us – we've designed for them all</span>
+      </h2>
+    </div>
+    <div class="saas-content-row">
+      <div class="saas-verticals-box">
+        <ul class="saas-verticals-list">
+          <li>Healthcare <span class="saas-arrow">↗</span></li>
+          <li>Data analytics <span class="saas-arrow">↗</span></li>
+          <li>Geoservice <span class="saas-arrow">↗</span></li>
+          <li>Developer focused <span class="saas-arrow">↗</span></li>
+          <li>AI-powered <span class="saas-arrow">↗</span></li>
+          <li>Marketing <span class="saas-arrow">↗</span></li>
+          <li>Fintech <span class="saas-arrow">↗</span></li>
+          <li>Sales <span class="saas-arrow">↗</span></li>
+        </ul>
+      </div>
+      <div class="saas-testimonial-col">
+        <div class="saas-testimonial-card">
+          <div class="saas-testimonial-text">"It is unusual to find a designer who has experience building applications
+            with geospatial data – especially imagery data. We found that in Eleken."</div>
+          <div class="saas-testimonial-user-row">
+            <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Jamie Conklin"
+              class="saas-testimonial-avatar">
+            <div>
+              <div class="saas-testimonial-user-name">Jamie Conklin, VP Product</div>
+              <div class="saas-testimonial-user-company">astraea</div>
+            </div>
+            <span class="saas-testimonial-clutch">Verified on Clutch</span>
+            <span class="saas-testimonial-stars">★★★★★</span>
+          </div>
+        </div>
+      </div>
+      <div class="hrt">
+        <div class="saas-illustration-col">
+          <img src="645909f4e80ddf9e3a2b2faf_img-person-07.svg" alt="Illustration" class="saas-illustration">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEGIN: Never settle for meh designers again section
+  <section class="meh-designers-section">
+    <div class="meh-headline-wrap">
+      <h2 class="meh-headline">
+        Never settle for <span data-w-id="83954a31-6c48-41c5-e145-afafc0853b38" data-is-ix2-target="1" class="lineclass1" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/63f374c4b366b74ada5c9b52_20-ux-ui.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 108 8" width="108" height="8" preserveAspectRatio="xMidYMid meet" style="width: 8%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_44"><rect width="108" height="8" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_44)"><g transform="matrix(1,0,0,1,54,3.9730000495910645)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="1.5" d=" M-51.5,1.5 C-19.625999450683594,-0.06800000369548798 45.481998443603516,-2.734999895095825 50.91600036621094,-0.8529999852180481 C56.349998474121094,1.0290000438690186 22.524999618530273,1.5 4.933000087738037,1.5"></path></g></g></g></svg></span><span class="meh-underlin">meh</span> <span class="meh-underlin">designers again</span>
+      </h2>
+    </div>
+    <div class="meh-cards-row">
+      <div class="meh-card meh-desc-card">
+        <div class="meh-card-row-top">
+          <div class="meh-card-row-title">Skills<br>check</div>
+          <div data-w-id="83954a31-6c48-41c5-e145-afafc0853b45" data-is-ix2-target="1" class="card-img" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/660fefb399e39d7b4a57730c_icon-done.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.301301248298216" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57 59" width="57" height="59" preserveAspectRatio="xMidYMid meet" style="width: 80%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_97"><rect width="57" height="59" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_97)"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,23.5,35.5)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="1.5" d=" M0,-22.5 C12.425999641418457,-22.5 22.5,-12.425999641418457 22.5,0 C22.5,12.425999641418457 12.425999641418457,22.5 0,22.5 C-12.425999641418457,22.5 -22.5,12.425999641418457 -22.5,0 C-22.5,-12.425999641418457 -12.425999641418457,-22.5 0,-22.5z"></path></g></g><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,34,23.945999145507812)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-22,3.628000020980835 C-19.892000198364258,5.119999885559082 -10.156000137329102,22.945999145507812 -7.104000091552734,20.888999938964844 C-4.96999979019165,19.451000213623047 -3.2939999103546143,16.80299949645996 -1.871000051498413,14.795000076293945 C2.375,8.800999641418457 6.138999938964844,2.48799991607666 9.930999755859375,-3.7909998893737793 C13.826000213623047,-10.243000030517578 17.658000946044922,-16.797000885009766 22,-22.945999145507812"></path></g></g></g></svg></div>
+        </div>
+        <div class="meh-card-row-desc">We filter out 99% of candidates who don't make the cut in soft skills</div>
+      </div>
+      <div class="meh-card meh-desc-card">
+        <div class="meh-card-row-top">
+          <div class="meh-card-row-title">English<br>check</div>
+          <div data-w-id="83954a31-6c48-41c5-e145-afafc0853b51" data-is-ix2-target="1" class="card-img1" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/660fefb3f5220192f27ac6f7_icon-chat.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.6182848857041916" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92 82" width="92" height="82" preserveAspectRatio="xMidYMid meet" style="width: 80%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_105"><rect width="92" height="82" x="0" y="0"></rect></clipPath><clipPath id="__lottie_element_175"><path d="M0,0 L92,0 L92,82 L0,82z"></path></clipPath></defs><g clip-path="url(#__lottie_element_105)"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,46.117000579833984,41.15800094604492)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M8.538000106811523,26.017000198364258 C8.347000122070312,26.156999588012695 8.164999961853027,26.211000442504883 7.979000091552734,26.214000701904297 C7.835999965667725,26.216999053955078 7.554999828338623,26.1299991607666 7.107999801635742,25.493999481201172 C6.679999828338623,24.882999420166016 6.283999919891357,24.0310001373291 5.835000038146973,23.048999786376953 C5.835000038146973,23.048999786376953 5.798999786376953,22.97100067138672 5.798999786376953,22.97100067138672 C5.380000114440918,22.05500030517578 4.913000106811523,21.035999298095703 4.366000175476074,20.219999313354492 C3.819000005722046,19.405000686645508 3.0339999198913574,18.549999237060547 1.8940000534057617,18.38599967956543 C-7.431000232696533,17.04400062561035 -16.738000869750977,13.460000038146973 -23.461000442504883,8.682999610900879 C-30.233999252319336,3.869999885559082 -34.11000061035156,-1.934999942779541 -33.279998779296875,-7.702000141143799 C-32.430999755859375,-13.609000205993652 -28.06999969482422,-18.562000274658203 -21.465999603271484,-21.731000900268555 C-14.869000434875488,-24.895999908447266 -6.13700008392334,-26.216999053955078 3.1570000648498535,-24.8799991607666 C10.899999618530273,-23.767000198364258 17.753999710083008,-20.990999221801758 22.972999572753906,-17.260000228881836 C23.389999389648438,-16.961000442504883 23.797000885009766,-16.656999588012695 24.19300079345703,-16.347000122070312 C24.885000228881836,-15.803999900817871 25.54400062561035,-15.244999885559082 26.16699981689453,-14.670000076293945 C31.43000030517578,-9.8149995803833 34.11000061035156,-3.937000036239624 33.275001525878906,1.8700000047683716 C33.275001525878906,1.8700000047683716 33.275001525878906,1.8700000047683716 33.275001525878906,1.8700000047683716 C32.12300109863281,9.883000373840332 24.47100067138672,16.166000366210938 13.640000343322754,18.548999786376953 C12.52400016784668,18.79400062561035 11.812999725341797,19.650999069213867 11.331000328063965,20.472999572753906 C10.890999794006348,21.22100067138672 10.53499984741211,22.131000518798828 10.21399974822998,22.950000762939453 C10.180000305175781,23.038999557495117 10.145000457763672,23.12700080871582 10.111000061035156,23.21299934387207 C9.741999626159668,24.14900016784668 9.41100025177002,24.937000274658203 9.015000343322754,25.499000549316406 C8.847000122070312,25.738000869750977 8.689000129699707,25.905000686645508 8.538000106811523,26.017000198364258"></path></g></g><g clip-path="url(#__lottie_element_175)" style="display: block;" transform="matrix(1,0,0,1,0,0)" opacity="1"><g style="display: block;" transform="matrix(1,0,0,1,0,0)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,36.51499938964844,37.986000061035156)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="3" d=" M0.26600000262260437,-0.08900000154972076 C0.1289999932050705,-0.25099998712539673 -0.07599999755620956,0.14800000190734863 -0.020999999716877937,0.18400000035762787 C0.04100000113248825,0.2240000069141388 0.15800000727176666,0.24400000274181366 0.1889999955892563,0.1599999964237213 C0.25600001215934753,-0.020999999716877937 -0.10199999809265137,-0.1940000057220459 -0.1589999943971634,-0.039000000804662704 C-0.2669999897480011,0.25099998712539673 0.012000000104308128,0.05900000035762787 0.007000000216066837,0.04800000041723251 C-0.00800000037997961,0.014999999664723873 -0.09000000357627869,-0.052000001072883606 -0.12300000339746475,-0.0020000000949949026 C-0.15800000727176666,0.052000001072883606 -0.1379999965429306,0.014000000432133675 -0.21400000154972076,-0.009999999776482582"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,0,0)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,46.95600128173828,38.07899856567383)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="3" d=" M0.26600000262260437,-0.08900000154972076 C0.1289999932050705,-0.25099998712539673 -0.07599999755620956,0.14800000190734863 -0.020999999716877937,0.18400000035762787 C0.04100000113248825,0.22499999403953552 0.15800000727176666,0.24400000274181366 0.1889999955892563,0.1599999964237213 C0.25600001215934753,-0.020999999716877937 -0.10199999809265137,-0.1940000057220459 -0.1589999943971634,-0.03799999877810478 C-0.2669999897480011,0.25099998712539673 0.012000000104308128,0.05900000035762787 0.007000000216066837,0.04800000041723251 C-0.00800000037997961,0.014999999664723873 -0.09000000357627869,-0.052000001072883606 -0.12300000339746475,-0.0020000000949949026 C-0.15800000727176666,0.052000001072883606 -0.1379999965429306,0.014000000432133675 -0.21400000154972076,-0.009999999776482582"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,0.004001617431640625,0)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,57.39699935913086,38.165000915527344)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="3" d=" M0.26600000262260437,-0.08900000154972076 C0.1289999932050705,-0.25099998712539673 -0.07599999755620956,0.14800000190734863 -0.020999999716877937,0.18400000035762787 C0.04100000113248825,0.2240000069141388 0.15800000727176666,0.24400000274181366 0.1889999955892563,0.1599999964237213 C0.25600001215934753,-0.020999999716877937 -0.10199999809265137,-0.1940000057220459 -0.1589999943971634,-0.039000000804662704 C-0.2669999897480011,0.25099998712539673 0.012000000104308128,0.05900000035762787 0.007000000216066837,0.04800000041723251 C-0.00800000037997961,0.014999999664723873 -0.09000000357627869,-0.052000001072883606 -0.12300000339746475,-0.0020000000949949026 C-0.15800000727176666,0.052000001072883606 -0.1379999965429306,0.014000000432133675 -0.21400000154972076,-0.009999999776482582"></path></g></g></g></g></svg></div></div>
+        <div class="meh-card-row-desc1">Only those who
+communicate fluently get
+hired to Eleken</div>
+      </div>
+      <div class="meh-card meh-desc-card">
+        <div class="meh-feature-card-icon"><div data-w-id="83954a31-6c48-41c5-e145-afafc0853b5e" data-is-ix2-target="1" class="card-img" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/660fefb34ccbf04156ac4606_icon-lamp.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.1011010562523367" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55 57" width="55" height="57" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_121"><rect width="55" height="57" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_121)"><g transform="matrix(1,0,0,1,1.5,1)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,32.54199981689453,19.85300064086914)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-25.481000900268555,20.95400047302246 C-21.274999618530273,14.980999946594238 -21.47800064086914,12.126999855041504 -18.81999969482422,-1.187999963760376 C-15.57800006866455,-17.43199920654297 4.15500020980835,-27.250999450683594 14.817999839782715,-6.734000205993652 C25.481000900268555,13.781999588012695 -11.79800033569336,22.857999801635742 -16.152000427246094,27.250999450683594"></path></g><g opacity="1" transform="matrix(1,0,0,1,8.47700023651123,47.79999923706055)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-5.535999774932861,-6.182000160217285 C-3.4749999046325684,-8.293999671936035 2.736999988555908,-3.0209999084472656 5.6519999504089355,-0.05700000002980232 C5.697000026702881,-0.010999999940395355 5.736999988555908,0.03999999910593033 5.770999908447266,0.09399999678134918 C8.131999969482422,3.869999885559082 2.9019999504089355,8.295000076293945 -2.444999933242798,3.999000072479248 C-7.831999778747559,-0.328000009059906 -8.133000373840332,-3.5220000743865967 -5.535999774932861,-6.182000160217285z"></path></g><g opacity="1" transform="matrix(1,0,0,1,19.302000045776367,35.01599884033203)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-6.9720001220703125,8.456000328063965 C-5.02400016784668,6.379000186920166 6.014999866485596,-0.9369999766349792 3.388000011444092,-4.442999839782715 C0.38199999928474426,-8.454999923706055 -8.866999626159668,5.071000099182129 8.866999626159668,-2.0959999561309814"></path></g></g></g></svg></div></div>
+        <div class="meh-feature-card-title">Intense<br>bootcamp</div>
+        <div class="meh-feature-card-desc">Every newcomer gets a 3-month training to improve hard skills</div>
+      </div>
+    </div>
+    <div class="newbox">
+     <div class="meh-feature-card">
+        <div class="meh-feature-card-icon"><div data-w-id="83954a31-6c48-41c5-e145-afafc0853b6a" data-is-ix2-target="1" class="card-img" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/660fefb3e4105d0ce5979ff4_icon-two-arrows.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.0010009602293968" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 47" width="50" height="47" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_110"><rect width="50" height="47" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_110)"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,24.518999099731445,23.361000061035156)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-21.363000869750977,-22.358999252319336 C-21.363000869750977,-22.358999252319336 -6.215000152587891,-5.36299991607666 -6.215000152587891,-5.36299991607666 M-6.215000152587891,-5.36299991607666 C-6.215000152587891,-5.36299991607666 -5.75600004196167,-11.361000061035156 -5.75600004196167,-11.361000061035156 M-6.215000152587891,-5.36299991607666 C-6.215000152587891,-5.36299991607666 -16.621000289916992,-6.160999774932861 -16.621000289916992,-6.160999774932861"></path></g></g><g transform="matrix(-0.9998477101325989,0.017452405765652657,-0.017452405765652657,-0.9998477101325989,48.459129333496094,47.557273864746094)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"></g><g opacity="1" transform="matrix(1,0,0,1,24.518999099731445,23.361000061035156)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-21.363000869750977,-22.358999252319336 C-21.363000869750977,-22.358999252319336 -6.215000152587891,-5.36299991607666 -6.215000152587891,-5.36299991607666 M-6.215000152587891,-5.36299991607666 C-6.215000152587891,-5.36299991607666 -5.75600004196167,-11.361000061035156 -5.75600004196167,-11.361000061035156 M-6.215000152587891,-5.36299991607666 C-6.215000152587891,-5.36299991607666 -16.621000289916992,-6.160999774932861 -16.621000289916992,-6.160999774932861"></path></g></g><g transform="matrix(0.9999974966049194,0,0,0.9999974966049194,0.00006103515625,0.0000591278076171875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,24.332000732421875,23.641000747680664)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="3" d=" M0.21199999749660492,-0.1850000023841858 C0.032999999821186066,-0.29899999499320984 -0.04500000178813934,0.1420000046491623 0.01899999938905239,0.16099999845027924 C0.09000000357627869,0.1809999942779541 0.2070000022649765,0.16599999368190765 0.21199999749660492,0.07699999958276749 C0.22300000488758087,-0.11599999666213989 -0.17000000178813934,-0.17499999701976776 -0.17900000512599945,-0.009999999776482582 C-0.19699999690055847,0.29899999499320984 0.012000000104308128,0.03200000151991844 0.004000000189989805,0.023000000044703484 C-0.019999999552965164,-0.004999999888241291 -0.11699999868869781,-0.0430000014603138 -0.1340000033378601,0.014000000432133675 C-0.1509999930858612,0.07599999755620956 -0.14399999380111694,0.032999999821186066 -0.22300000488758087,0.032999999821186066"></path></g></g></g></svg></div></div>
+        
+        <div class="meh-feature-card-title">Service<br>test-drive</div>
+        <div class="meh-feature-card-desc">Start with a trial to see if you click with your designer</div>
+      </div>
+       <div class="meh-feature-card">
+        <div class="meh-feature-card-icon"><div data-w-id="83954a31-6c48-41c5-e145-afafc0853b76" data-is-ix2-target="1" class="card-img" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/660fefb3bb6202262c3eb7a8_icon-team.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.0176843095665535" data-duration="1.6"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="50" height="50" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_131"><rect width="50" height="50" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_131)"><g transform="matrix(1,0,0,1,4.5,2.5)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,20.5,15.5)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(29,30,34)" stroke-opacity="1" stroke-width="2" d=" M-3.5,3 C-3.5,3 -13.5,-14.5 -13.5,-14.5 M2.5,5.5 C2.5,5.5 11,-8.5 11,-8.5 M2.5,10.5 C2.5,10.5 19.5,14.5 19.5,14.5 M-9.5,8.5 C-9.5,8.5 -19.5,10.5 -19.5,10.5 M-3.5,14.5 C-3.5,14.5 -3.5,28 -3.5,28"></path></g></g></g></svg></div></div>
+        <div class="meh-feature-card-title">Team<br>expertise</div>
+        <div class="meh-feature-card-desc">Your specialist is backed by our Head of Design supervising the project</div>
+      </div>
+      </div>
+  </section>
+  <!-- END: Never settle for meh designers again section -->
+
+
+
+  <section class="process-section">
+    <div class="process-headline-wrap">
+      <h2 class="process-headline">
+        A battle-tested process,<br>perfected for <span class="process-underline">SaaS
+          <svg class="process-squiggle" width="60" height="18" viewBox="0 0 60 18" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 16C10 8 20 8 30 16C40 24 50 8 58 2" stroke="#FF9466" stroke-width="3" fill="none"
+              stroke-linecap="round" />
+          </svg>
+        </span>
+      </h2>
+    </div>
+    <div class="process-cards">
+      <div class="process-card">
+        <div class="process-card-left">
+          <div class="process-step-num">01</div>
+          <div class="process-step-title">3-day trial</div>
+          <div class="process-step-desc">Begin with a no-commitment trial to ensure we're the right fit for you.</div>
+        </div>
+        <div class="process-card-right">
+          <div class="process-youget-label">YOU GET</div>
+          <ul class="process-deliverables">
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              1-2 screens designed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <div class="process-card-left">
+          <div class="process-step-num">02</div>
+          <div class="process-step-title">User research</div>
+          <div class="process-step-desc">Audit in case of redesign, product discovery and competitor analysis if we
+            design from scratch. Building the app's structure as a final step here.</div>
+        </div>
+        <div class="process-card-right">
+          <div class="process-youget-label">YOU GET</div>
+          <ul class="process-deliverables">
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Competitive analysis</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span> UX
+              audit report</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Information architecture</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <div class="process-card-left">
+          <div class="process-step-num">03</div>
+          <div class="process-step-title">Screens design</div>
+          <div class="process-step-desc">You get several UI/UX design options with variations in typography, icons, and
+            colors. The preferred one gets iterated until the final design is ready.</div>
+        </div>
+        <div class="process-card-right">
+          <div class="process-youget-label">YOU GET</div>
+          <ul class="process-deliverables">
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Wireframes</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Prototypes</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Several UI options</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Final design</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <div class="process-card-left">
+          <div class="process-step-num">04</div>
+          <div class="process-step-title">Design handoff</div>
+          <div class="process-step-desc">We don't develop software, but we make sure your developers have everything
+            they need to implement the product we've designed.</div>
+        </div>
+        <div class="process-card-right">
+          <div class="process-youget-label">YOU GET</div>
+          <ul class="process-deliverables">
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              All screens</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              UI-kit</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Design system</li>
+          </ul>
+        </div>
+      </div>
+      <div class="process-card">
+        <div class="process-card-left">
+          <div class="process-step-num">05</div>
+          <div class="process-step-title">Project support</div>
+          <div class="process-step-desc">We stay engaged for as long as you need us, making sure our designs are
+            implemented smoothly.</div>
+        </div>
+        <div class="process-card-right">
+          <div class="process-youget-label">YOU GET</div>
+          <ul class="process-deliverables">
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Adding new features</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span> UX
+              consulting</li>
+            <li><span class="process-check"><img src="660d7c6d70774647e25e7799_icon-done.svg" class="imgch" /></span>
+              Supervising execution</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEGIN: New Hero Section (Screenshot Style) -->
+  <section class="screenshot-hero-section">
+    <div class="screenshot-hero-content">
+      <h2 class="screenshot-hero-title">
+        We get hired to design, fix<span class="screenshot-saas-accent"><svg xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 39 29" width="39" height="29"
+            preserveAspectRatio="xMidYMid meet"
+            style="width: 78%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_165">
+                <rect width="39" height="29" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_165)">
+              <g transform="matrix(1,0,0,1,19.5,14.5)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,142,94)"
+                    stroke-opacity="1" stroke-width="2"
+                    d=" M-13.270999908447266,3.9230000972747803 C-13.270999908447266,3.9230000972747803 -11.567000389099121,-12.930999755859375 -11.567000389099121,-12.930999755859375 M-6.302999973297119,6.6539998054504395 C-6.302999973297119,6.6539998054504395 13.086000442504883,-6.297999858856201 13.086000442504883,-6.297999858856201 M-1.3250000476837158,12.894000053405762 C-1.3250000476837158,12.894000053405762 12.618000030517578,11.484000205993652 12.618000030517578,11.484000205993652">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg></span><br>
+        or scale <span class="screenshot-saas-wrap">
+          <span class="screenshot-saas-text">SaaS</span>
+          <svg class="screenshot-saas-circle" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 165 67" width="165" height="67"
+            preserveAspectRatio="xMidYMid meet"
+            style="width: 114%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_141">
+                <rect width="165" height="67" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_141)">
+              <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,72.59200286865234,33.499000549316406)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                    d=" M-7.0920000076293945,-28.49799919128418 C-47.367000579833984,-24.437999725341797 -95.14099884033203,-13.315999984741211 -58.09199905395508,15.5 C-17.591999053955078,47 86.68000030517578,28.45800018310547 90.40799713134766,5.000999927520752 C95.14099884033203,-24.77899932861328 1.9079999923706055,-47 -59.9739990234375,-20.70800018310547">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+
+        </span> products
+      </h2>
+      <p class="screenshot-hero-desc">
+        Whether you're looking to secure funding for your new product, redesign your SaaS to increase profitability, or
+        get a remote design team for faster growth, Eleken is the right choice for continuous product development.
+      </p>
+      <button class="screenshot-hero-btn">GET STARTED <span class="screenshot-arrow">→</span></button>
+    </div>
+  </section>
+  <!-- END: New Hero Section (Screenshot Style) -->
+
+  <!-- BEGIN: Principles Section -->
+  <section class="principles-section">
+    <div class="principles-container">
+      <h2 class="principles-title">
+        We are a SaaS design company that sticks to<br>our <span class="principles-title-underline">principles
+          <svg xmlns="http://www.w3.org/2000/svg" class="cir" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 184 56" width="184" height="56" preserveAspectRatio="xMidYMid meet"
+            style="width: 40%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_130">
+                <rect width="184" height="56" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_130)">
+              <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,52.26100158691406,24.011999130249023)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                    d=" M-30.94300079345703,18.466999053955078 C4.061999797821045,27.996000289916992 111.23799896240234,35.98699951171875 128.802001953125,8.449000358581543 C157.0260009765625,-35.801998138427734 -157.0260009765625,-35.987998962402344 -12.369000434875488,30.702999114990234">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </h2>
+      <div class="principles-cards-row">
+        <div class="principles-card">
+          <div class="principles-card-title">Users don't come first</div>
+          <div class="principles-card-sub">BUSINESS COMES</div>
+          <div class="principles-card-desc">This doesn't mean ignoring the users. Every business will benefit from
+            understanding its users better and making the product better for them. Being user-centered is a good thing.
+            But it's a good thing because it's good for the business.</div>
+        </div>
+
+        <div class="principles-card">
+          <div class="principles-card-title">Structure is key</div>
+          <div class="principles-card-sub">BUT GOOD UI MATTERS</div>
+          <div class="principles-card-desc">Well-thought information architecture and navigation makes complex apps easy
+            to use. Beautiful interfaces make those apps emotionally appealing.</div>
+        </div>
+
+        <div class="principles-card principles-card-illustration">
+          <img
+            src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/665ddfcf52243057d1c7171d_img-person-34.webp"
+            alt="Principle Illustration" class="principles-illustration">
+        </div>
+        <div class="principles-card">
+          <div class="principles-card-title">Design is a process</div>
+          <div class="principles-card-sub">NOT AN EVENT</div>
+          <div class="principles-card-desc">There's no place for overnight success. We work in short iterations, moving
+            to the result bit by bit, and expect your consistent feedback.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END: Principles Section -->
+
+  <!-- BEGIN: Not For Everyone Section -->
+  <section class="not-for-everyone-section">
+    <div class="not-for-everyone-container">
+      <div class="not-for-everyone-left">
+        <h2 class="not-for-everyone-title">
+          We are not<br>for everyone
+          <span class="not-for-everyone-squiggle">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 24"
+              width="23" height="24" preserveAspectRatio="xMidYMid meet"
+              style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+              <defs>
+                <clipPath id="__lottie_element_2">
+                  <rect width="23" height="24" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_2)">
+                <g transform="matrix(1,0,0,1,11.965999603271484,11.407999992370605)" opacity="1"
+                  style="display: block;">
+                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M-10.553000450134277,-7.8460001945495605 C-10.553000450134277,-7.8460001945495605 -9.251999855041504,-0.6869999766349792 -9.251999855041504,-0.6869999766349792 C-9.251999855041504,-0.6869999766349792 -0.7139999866485596,-9.633000373840332 -0.7139999866485596,-9.633000373840332 C-0.7139999866485596,-9.633000373840332 -4.169000148773193,0.4440000057220459 -4.169000148773193,0.4440000057220459 C-4.169000148773193,0.4440000057220459 8.819000244140625,-1.9140000343322754 8.819000244140625,-1.9140000343322754 C8.819000244140625,-1.9140000343322754 -1.1890000104904175,5.656000137329102 -1.1890000104904175,5.656000137329102 C-1.1890000104904175,5.656000137329102 10.553000450134277,7.631999969482422 10.553000450134277,7.631999969482422 C10.553000450134277,7.631999969482422 -0.46700000762939453,9.633000373840332 -0.46700000762939453,9.633000373840332">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></span>
+        </h2>
+        <div class="not-for-everyone-sub">Don't apply if</div>
+        <div class="not-for-everyone-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272 191"
+            width="272" height="191" preserveAspectRatio="xMidYMid meet"
+            style="width: 80%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_151">
+                <rect width="272" height="191" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_151)">
+              <g transform="matrix(1,0,0,1,9.5,9.5)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,126.7959976196289,88.65599822998047)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                    stroke-opacity="1" stroke-width="2"
+                    d=" M125.10800170898438,68.677001953125 C13.428999900817871,118.53800201416016 -26.402999877929688,16.73200035095215 -29.503000259399414,-23.70599937438965 C-32.23699951171875,-59.380001068115234 23.591999053955078,-51.23699951171875 -0.4320000112056732,-4.541999816894531 C-24.454999923706055,42.15299987792969 -105.35800170898438,-18.472999572753906 -85.66699981689453,-76.63300323486328 C-71.47899627685547,-118.53800201416016 -33.20800018310547,-20.594999313354492 -125.10800170898438,3.4100000858306885">
+                  </path>
+                </g>
+                <g opacity="1" transform="matrix(1,0,0,1,126.7959976196289,88.65599822998047)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                    stroke-opacity="1" stroke-width="2"
+                    d=" M128.12,67.17 C128.12,67.17 111.22,67.17 111.22,67.17 M128.12,67.17 C125.32,70.27 119.72,77.06 119.72,79.46">
+                  </path>
+                  <g opacity="1" transform="matrix(1,0,0,1,-123.78499603271484,-90.15999603271484)"></g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <ul class="not-for-everyone-list">
+        <li><span class="not-for-everyone-x"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18M6 18L18 6" stroke="#FF9466" stroke-width="2.5" stroke-linecap="round" />
+            </svg></span> You have no time to communicate with a designer</li>
+        <li><span class="not-for-everyone-x"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18M6 18L18 6" stroke="#FF9466" stroke-width="2.5" stroke-linecap="round" />
+            </svg></span> You are not SaaS</li>
+        <li><span class="not-for-everyone-x"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18M6 18L18 6" stroke="#FF9466" stroke-width="2.5" stroke-linecap="round" />
+            </svg></span> You want us to design a logo, landing page or banner</li>
+        <li><span class="not-for-everyone-x"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18M6 18L18 6" stroke="#FF9466" stroke-width="2.5" stroke-linecap="round" />
+            </svg></span> Your budget for a design project is under 10K</li>
+        <li><span class="not-for-everyone-x"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6L18 18M6 18L18 6" stroke="#FF9466" stroke-width="2.5" stroke-linecap="round" />
+            </svg></span> You expect your app to be magically designed overnight</li>
+      </ul>
+    </div>
+  </section>
+  <!-- END: Not For Everyone Section -->
+
+  <!-- BEGIN: Best Fit Section -->
+  <section class="best-fit-section">
+    <div class="best-fit-container">
+      <h2 class="best-fit-title">
+        When we're the <span class="best-fit-title-ellipse">best fit
+          <svg width="120" height="38" viewBox="0 0 120 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="60" cy="19" rx="56" ry="14" stroke="#FF9466" stroke-width="3" />
+          </svg>
+        </span>
+      </h2>
+      <div class="best-fit-sub">If you find yourself in one of the situations described below,<br> our service is
+        exactly what you need.</div>
+      <div class="best-fit-row">
+        <div class="best-fit-left">
+          <div class="best-fit-card">
+            <div class="best-fit-card-title">The right designers are hard to find</div>
+            <div class="best-fit-card-desc">You don't have the right design talent with expertise in creating SaaS, and
+              it's not easy to find candidates with relevant skill sets and the right attitude.</div>
+            <div class="best-fit-card-arrow">→</div>
+          </div>
+          <div class="best-fit-solution-card">
+            <div class="best-fit-solution-title">Solution</div>
+            <div class="best-fit-solution-desc">We have 40+ UI/UX designers with SaaS design expertise on the team, so
+              we can jump into the project whenever you need us. Plus, we provide a 3-day FREE trial to let you see us
+              in action before signing the contract.</div>
+          </div>
+        </div>
+        <div class="best-fit-right">
+          <svg xmlns="http://www.w3.org/2000/svg" class="best-fit-line-svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 172 125" width="172" height="125" preserveAspectRatio="xMidYMid meet"
+            style="width: 23%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_158">
+                <rect width="172" height="125" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_158)">
+              <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,94.05599975585938,62.314998626708984)">
+                  <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                    stroke-opacity="1" stroke-width="2"
+                    d=" M-92.68000030517578,60.959999084472656 C-80.5250015258789,-24.332000732421875 -4.881999969482422,-9.901000022888184 20.392000198364258,3.4170000553131104 C42.68899917602539,15.166000366210938 16.893999099731445,45.4010009765625 -1.9390000104904175,13.564000129699707 C-20.770999908447266,-18.273000717163086 45.72200012207031,-43.7760009765625 73.01599884033203,-10.220999717712402 C92.68099975585938,13.954999923706055 15.175000190734863,-9.807000160217285 69.83499908447266,-60.959999084472656">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg><img
+            src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/647720b2bbb4647b0052ff4a_img-person-14.webp"
+            alt="Person with net" class="best-fit-illustration">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Best Fit Section -->
+
+  <!-- BEGIN: Deadlines Section -->
+  <section class="deadlines-section">
+    <div class="deadlines-container">
+      <div class="deadlines-left">
+        <img
+          src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/647720b2249330c9bcc3fb13_img-person-15.webp"
+          alt="Running person" class="deadlines-illustration">
+        <svg xmlns="http://www.w3.org/2000/svg" class="deadlines-line-svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 172 125" width="172" height="125" preserveAspectRatio="xMidYMid meet"
+          style="width: 24%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+          <defs>
+            <clipPath id="__lottie_element_170">
+              <rect width="172" height="125" x="0" y="0"></rect>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#__lottie_element_170)">
+            <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+              <g opacity="1" transform="matrix(1,0,0,1,94.05599975585938,62.314998626708984)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                  stroke-opacity="1" stroke-width="2"
+                  d=" M-92.68000030517578,60.959999084472656 C-80.5250015258789,-24.332000732421875 -4.881999969482422,-9.901000022888184 20.392000198364258,3.4170000553131104 C42.68899917602539,15.166000366210938 16.893999099731445,45.4010009765625 -1.9390000104904175,13.564000129699707 C-20.770999908447266,-18.273000717163086 45.72200012207031,-43.7760009765625 73.01599884033203,-10.220999717712402 C92.68099975585938,13.954999923706055 15.175000190734863,-9.807000160217285 69.83499908447266,-60.959999084472656">
+                </path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="deadlines-right">
+        <div class="deadlines-card">
+          <div class="deadlines-card-title">Deadlines&nbsp; are burning</div>
+          <div class="deadlines-card-desc">You've underestimated the amount of work that goes into your project, and now
+            you're behind schedule. You want to find designers who can help you out, but posting a job and interviewing
+            candidates is taking up too much of your time.</div>
+          <div class="deadlines-card-arrow">←</div>
+        </div>
+        <div class="deadlines-solution-card">
+          We can provide as many designers as you need to complete your project and not add a single employee to your
+          payroll. We'll work with you throughout the process until you are satisfied with the final product, on
+          schedule.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Deadlines Section -->
+
+  <!-- BEGIN: Sren Section -->
+  <section class="sren-section">
+    <div class="sren-container">
+      <div class="sren-card">
+        <div class="sren-title">There's too much on your plate</div>
+        <div class="sren-desc">You've built your SaaS business up quite a bit over the last few years, and you've got
+          more than enough customers to keep your team busy. Now you're ready to develop a new product. But how will you
+          keep your current customers happy?</div>
+        <div class="sren-arrow">→</div>
+      </div>
+      <div class="sren-right">
+
+        <div class="sren-illustration">
+
+
+          <img
+            src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/647720b335f159fa24bd8d59_img-person-16.webp"
+            loading="eager" width="302">
+
+
+        </div>
+        <div class="sren-solution">
+          <div class="sren-solution-title">Solution</div>
+          <div class="sren-solution-desc">Eleken can provide a remote team to help you implement new features, support
+            the design system you've started to create, or redesign your products while you focus on other priorities.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Sren Section -->
+
+  <!-- BEGIN: Match Section -->
+  <section class="match-section">
+    <div class="match-container">
+      <div class="match-header">
+        <h2 class="match-title">Feel we're a perfect match?</h2><span class="qp"> <svg
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 135 9"
+            width="135" height="9" preserveAspectRatio="xMidYMid meet"
+            style="width: 25%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+            <defs>
+              <clipPath id="__lottie_element_52">
+                <rect width="135" height="9" x="0" y="0"></rect>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#__lottie_element_52)">
+              <g transform="matrix(1,0,0,1,67.5,4.5)" opacity="1" style="display: block;">
+                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                  <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                    stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="1.5"
+                    d=" M-65,2 C-60.98899841308594,2 -57.159000396728516,-2 -51.87200164794922,-2 C-46.58399963378906,-2 -41.84400177001953,2 -36.55699920654297,2 C-31.268999099731445,2 -27.076000213623047,-2 -21.606000900268555,-2 C-16.13599967956543,-2 -11.57800006866455,2 -4.284999847412109,2 C3.007999897003174,2 5.560999870300293,-2 11.942999839782715,-2 C18.325000762939453,-2 25.617000579833984,2 31.634000778198242,2 C37.6510009765625,2 40.38600158691406,-2 48.40800094604492,-2 C56.430999755859375,-2 58.983001708984375,2 65,2">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+
+        </span>
+        <div class="match-subtitle">Let's check it out </div>
+      </div>
+      <div class="match-content-row">
+        <div class="match-card match-card-left">
+          <div class="match-card-desc">Choosing a designer on the web is often a game of luck. There's no way to verify
+            their…</div>
+          <ul class="match-list">
+            <li>Skills</li>
+            <li>Approach</li>
+            <li>Proactivity</li>
+            <li>Responsibility</li>
+            <li>Creativity</li>
+          </ul>
+          <div class="match-card-desc2">…until you start working</div>
+          <div class="match-arrow">→</div>
+        </div>
+        <div class="match-card match-card-right">
+          <div class="match-card-right-desc">Choosing a good client is not an easy task either. So we offer you to put
+            that collaboration to test before committing.</div>
+          <ul class="match-steps">
+            <li>Apply for a 3-day trial where you task one of our designers with a small project</li>
+            <li>Experience our creative process and collaboration style</li>
+            <li>When the trial ends, we both decide if we're ready for long-term commitment.</li>
+          </ul>
+          <button class="match-btn">GET A DESIGN PARTNER</button>
+        </div>
+      </div>
+      <div class="match-illustrations">
+        <img
+          src="https://cdn.prod.website-files.com/5e8b3356a5a8f5321855bbe7/665dcd55638e8850e16d5b0c_img-person-33.webp"
+          class="match-person-left" width="120" alt="Person left">
+      </div>
+      <div class="match-arrow-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ooop" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 172 125" width="172" height="125" preserveAspectRatio="xMidYMid meet"
+          style="width: 124%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+          <defs>
+            <clipPath id="__lottie_element_170">
+              <rect width="172" height="125" x="0" y="0"></rect>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#__lottie_element_170)">
+            <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+              <g opacity="1" transform="matrix(1,0,0,1,94.05599975585938,62.314998626708984)">
+                <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(188,188,188)"
+                  stroke-opacity="1" stroke-width="2"
+                  d=" M-92.68000030517578,60.959999084472656 C-80.5250015258789,-24.332000732421875 -4.881999969482422,-9.901000022888184 20.392000198364258,3.4170000553131104 C42.68899917602539,15.166000366210938 16.893999099731445,45.4010009765625 -1.9390000104904175,13.564000129699707 C-20.770999908447266,-18.273000717163086 45.72200012207031,-43.7760009765625 73.01599884033203,-10.220999717712402 C92.68099975585938,13.954999923706055 15.175000190734863,-9.807000160217285 69.83499908447266,-60.959999084472656">
+                </path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- END: Match Section -->
+
+  <!-- BEGIN: Knowledge Section -->
+  <section class="knowledge-section">
+    <div class="knowledge-container">
+      <div class="knowledge-header">
+        <h2 class="knowledge-title">Sharing knowledge
+          <span class="knowledge-squiggle">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 24"
+              width="23" height="24" preserveAspectRatio="xMidYMid meet"
+              style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+              <defs>
+                <clipPath id="__lottie_element_48">
+                  <rect width="23" height="24" x="0" y="0"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#__lottie_element_48)">
+                <g transform="matrix(1,0,0,1,11.965999603271484,11.407999992370605)" opacity="1"
+                  style="display: block;">
+                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                    <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(255,142,94)" stroke-opacity="1" stroke-width="2"
+                      d=" M-10.553000450134277,-7.8460001945495605 C-10.553000450134277,-7.8460001945495605 -9.251999855041504,-0.6869999766349792 -9.251999855041504,-0.6869999766349792 C-9.251999855041504,-0.6869999766349792 -0.7139999866485596,-9.633000373840332 -0.7139999866485596,-9.633000373840332 C-0.7139999866485596,-9.633000373840332 -4.169000148773193,0.4440000057220459 -4.169000148773193,0.4440000057220459 C-4.169000148773193,0.4440000057220459 8.819000244140625,-1.9140000343322754 8.819000244140625,-1.9140000343322754 C8.819000244140625,-1.9140000343322754 -1.1890000104904175,5.656000137329102 -1.1890000104904175,5.656000137329102 C-1.1890000104904175,5.656000137329102 10.553000450134277,7.631999969482422 10.553000450134277,7.631999969482422 C10.553000450134277,7.631999969482422 -0.46700000762939453,9.633000373840332 -0.46700000762939453,9.633000373840332">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg></span>
+        </h2>
+      </div>
+      <div class="knowledge-cards-row">
+        <div class="knowledge-card">
+          <div class="knowledge-article-label">ARTICLE</div>
+          <div class="knowledge-article-img">
+            <img src="https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/686b65c4b3254187bcb5d549_cover.png"
+              alt="Article 1" />
+          </div>
+          <div class="knowledge-article-date">15 APR , 2025</div>
+          <div class="knowledge-article-title">Freemium Pricing: Customer Acquisition Hero or Revenue Killer?</div>
+          <div class="knowledge-article-desc">How to decide whether freemium pricing is the right business model for
+            your SaaS, freemium pitfalls, and questions to answer before going freemium.</div>
+        </div>
+        <div class="knowledge-card">
+          <div class="knowledge-article-label">ARTICLE</div>
+          <div class="knowledge-article-img">
+            <img
+              src="https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/673c9957d3f47acaac7d351c_64a51da5d147100832f97c9b_COVER_Freemium%2520Pricing_%2520Customer%2520Acquisition%2520Hero%2520or%2520Revenue%2520Killer_.png"
+              alt="Article 2" />
+          </div>
+          <div class="knowledge-article-date">15 APR , 2025</div>
+          <div class="knowledge-article-title">Product Life Cycle: A Detailed Guide on Dos and Don'ts in the Growth
+            Stage</div>
+          <div class="knowledge-article-desc">Learn about the most important characteristics of the growth stage of the
+            SaaS product life cycle and master success strategies for your product development.</div>
+        </div>
+        <div class="knowledge-card">
+          <div class="knowledge-article-label">ARTICLE</div>
+          <div class="knowledge-article-img">
+            <img
+              src="https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/64a56ea2f788f72c8cbcdd05_Healthcare%20UX.png"
+              alt="Article 3" />
+          </div>
+          <div class="knowledge-article-date">14 APR , 2025</div>
+          <div class="knowledge-article-title">Types of Design Agencies and How to Choose One</div>
+          <div class="knowledge-article-desc">Learn to differentiate types of design agencies by the kind of work they
+            do, and the customers they serve to choose the one fitting your needs.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: Knowledge Section -->
+
+  <!-- BEGIN: FAQ Section -->
+  <section class="faq-section">
+    <div class="faq-container">
+      <div class="faq-left">
+        <h2 class="faq-title">Got<br>questions?</h2>
+      </div>
+      <div class="faq-right">
+        <ul class="faq-list">
+          <li class="faq-item">
+            <span class="faq-question">What is the minimum contract duration?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Can you do mobile and landing page designs?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Will my designer be limited to their timezone?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">How long does it take to start?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Do you support part-time subscriptions?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Can I interview a designer and see their portfolio?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">What if I don't like a designer?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Can your designers deal with complex & technical B2B use cases?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Can we integrate designers into our processes?</span>
+            <span class="faq-plus">+</span>
+          </li>
+          <li class="faq-item">
+            <span class="faq-question">Can we upscale the team if needed?</span>
+            <span class="faq-plus">+</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- END: FAQ Section -->
+
+  <!-- BEGIN: Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2 class="contact-title">Have a project in<br>mind? Let's talk</h2>
+        <ul class="contact-list">
+          <li><span class="contact-arrow">→</span> Hop on a call to lay out your goals and pain points</li>
+          <li><span class="contact-arrow">→</span> We'll share relevant case studies from your industry vertical</li>
+          <li><span class="contact-arrow">→</span> If we're a mutual fit, you'll receive a tailored proposal</li>
+          <li><span class="contact-arrow">→</span> Then we'll kick things off with a 3-day trial run</li>
+        </ul>
+      </div>
+      <div class="contact-right">
+        <form class="contact-form">
+          <div class="contact-form-row">
+            <div class="contact-form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" />
+            </div>
+            <div class="contact-form-group">
+              <label for="company">Your company</label>
+              <input type="text" id="company" name="company" placeholder="Your company" />
+            </div>
+          </div>
+          <div class="contact-form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Your e-mail" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">How can we help you?</label>
+            <textarea id="message" name="message"
+              placeholder="Tell us about your product and your nearest plans on the design engagement"></textarea>
+          </div>
+          <div class="contact-form-group">
+            <label for="hear">How did you hear about us?</label>
+            <select id="hear" name="hear">
+              <option>-</option>
+              <option>Google</option>
+              <option>Referral</option>
+              <option>Social Media</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button type="submit" class="contact-send-btn">SEND</button>
+          <div class="contact-privacy">By clicking on the button, you consent to the processing of personal data and
+            agree to the site's <a href="#" target="_blank">Privacy Policy</a></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- END: Contact Section -->
+
+  <!-- BEGIN: Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo-col">
+          <div class="footer-logo">eleken<sup>®</sup></div>
+          <div class="footer-address">
+            Kyiv, Ukraine,<br>Dehtiarivska str. 33B
+          </div>
+          <div class="footer-address">
+            Eleken Design Ltd<br>920-736 Granville ST<br>Vancouver BC V6Z 1G3<br>Canada
+          </div>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <div class="footer-col-title">Services</div>
+            <div>Design from scratch</div>
+            <div>Product redesign</div>
+            <div>Team extension</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Approach</div>
+            <div>SaaS design</div>
+            <div>UI/UX design services</div>
+            <div>Web design</div>
+            <div>UI/UX audit</div>
+            <div>Mobile app design</div>
+            <div>Design system</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Company</div>
+            <div>Case studies</div>
+            <div>Pricing</div>
+            <div>About</div>
+            <div>Blog</div>
+            <div>Contact us</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">SaaS niches</div>
+            <div>Sales</div>
+            <div>Fintech</div>
+            <div>Healthcare</div>
+            <div>Marketing</div>
+            <div>Data</div>
+            <div>Geoservice</div>
+            <div>Developer-focused</div>
+            <div>AI</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Email courses</div>
+            <div>Create Best SaaS User Onboarding Experience</div>
+            <div>How to Spark an Aha Moment</div>
+            <div>How to Define and Design an MVP?</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Stories</div>
+            <div>How to choose an UI/UX Agency</div>
+            <div class="footer-col-title">Comparison</div>
+            <div>Eleken vs Toptal</div>
+            <div>Eleken vs. In-house designer</div>
+            <div>Eleken vs Traditional Agency</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-row">
+          <div class="footer-bottom-cols">
+            <div class="footer-bottom-col">
+              <div class="footer-bottom-title">eBooks</div>
+              <div>A Non-Boring Guide to How UX Research is Supposed to Work</div>
+              <div>The UX Design Crash Course for Product Owners</div>
+              <div>How to Get Along with Designers and Work Well Together</div>
+              <div>How We Work: Client's Guide</div>
+              <div>How to Succeed with Your Remote Design Team</div>
+              <div>How Design Impacts Your Growth Metrics</div>
+            </div>
+            <div class="footer-bottom-col">
+              <div class="footer-bottom-title">Policies</div>
+              <div>Editorial Process</div>
+              <div>Advertising policy</div>
+              <div>Team of Experts</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-links">
+      <div class="footer-bottom-meta">
+        <div class="footer-bottom-copyright">2023 Copyright Eleken. All rights reserved.</div>
+        <div class="footer-bottom-privacy">Privacy</div>
+
+        <div class="footer-socials">
+          <span class="footer-social-icon">&#xf16d; <i class="fi fi-brands-instagram"></i></span>
+          <span class="footer-social-icon">&#xf1b2;</span>
+          <span class="footer-social-icon">&#xf167;</span>
+          <span class="footer-social-icon">&#xf09a;</span>
+          <span class="footer-social-icon">&#xf0e1;</span>
+          <span class="footer-social-icon">&#xf16d;</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- END: Footer Section -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
